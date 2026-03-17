@@ -1,1 +1,1 @@
-# aula07-vercel-sushi-certo
+# AULA7 BACKEND - SUSHI - VERCEL
