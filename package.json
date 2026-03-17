@@ -13,7 +13,7 @@
         "backend",
         "middleware"
     ],
-    "author": "Isabella",
+    "author": "Leticia",
     "license": "ISC",
     "dependencies": {
         "cors": "^2.8.5",
