@@ -17,7 +17,8 @@
 let categorias = [
     { id: 1, nome: 'Combinados' },
     { id: 2, nome: 'Temakis' },
-    { id: 3, nome: 'Bebidas' }
+    { id: 3, nome: 'Bebidas' },
+    { id: 3, nome: 'Sobremesas'}
 ];
 
 // ─── Tabela de Produtos ───────────────────────────────────────
