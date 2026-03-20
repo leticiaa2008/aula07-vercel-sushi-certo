@@ -39,6 +39,22 @@ let produtos = [
         descricao: 'Salmão, cream cheese e cebolinha.',
         preco: 35.00,
         imagem: 'temaki-fila.png'
+    },
+     {
+        id: 3,
+        categoriaId: 3,
+        nome: 'Refrigerante Lata',
+        descricao: 'Coca-Cola, Guaraná ou Sprite (350ml).',
+        preco: 6.50,
+        imagem: 'refrigerante.png'
+    },
+    {
+        id: 4,
+        categoriaId: 4,
+        nome: 'Hot Roll Doce',
+        descricao: 'Sushi empanado com banana e chocolate.',
+        preco: 18.90,
+        imagem: 'hotroll-doce.png'
     }
 ];
 
