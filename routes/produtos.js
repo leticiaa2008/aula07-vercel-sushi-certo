@@ -11,7 +11,7 @@
 // =============================================================
 
 const express = require('express');
-const router = express.Router();
+let router = express.Router();
 let supabase = require('../data/supabase');
 // ⚠️ Usamos 'let' (não 'const') porque a rota DELETE vai
 //    reatribuir db.produtos com um novo array filtrado.
@@ -117,7 +117,7 @@ router.post('/', async (req, res, next) => {
         .insert([req.body])
         .select()
         if(error) throw error;
-        req.status(201).json(data[0]);
+        res.status(201).json(data[0]);
 
     }catch (err) {
         next(err);
